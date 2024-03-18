@@ -1,59 +1,93 @@
-*{
-    margin: 0%;
-    padding: 0%;    
-}
-
-#cabecalho{
-    height: 60px;
-        color: rgb(64, 2, 105);
-        justify-content: center; 
-        background-color: rgb(221, 139, 241);
-        
-}    
-
-h1{
-    display: flex;
-    justify-content: center;
+*{font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 body{
-    background-color: rgb(255, 228, 251);
-    cursor: pointer;
+    background-color: rgb(255, 230, 221);
 }
 
-#menu{
-
+#cabecalho{
     width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(251, 212, 255);
     display: flex;
-    gap: 2%;
-    margin: 10px auto;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-#banner{
-    width: 100%;
-    height: 200px;
-        background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+#links{
+    background-color:rgb(126, 45, 163);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
 
+}
+
+#conteudo img{
+    width: 100%;
+    height: 250px; 
+
+
+}
+
+
+
+h2{
+    text-decoration: none;
+    color: rgb(126, 45, 163);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(240, 189, 255);    
+}
+
+h3{
+      
+    text-decoration: none;
+    color: rgb(251, 212, 255);
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(126, 45, 163);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    color: rgb(251, 212, 255);
+}
+
+p{
+    color: rgb(251, 212, 255)
+}
+
+button{
+    color: rgb(120, 44, 155);
 }
 
 .produtos{
-
-    width: 300px;
-    padding: 15px;
-    background-color: rgb(255, 255, 255);
+    width: 250px;
+    border-radius: 0px;
+    padding: 10px;
+    background-color: rgb(126, 45, 163);
     overflow: hidden;
-    box-shadow: 15px 15px 10px  rgb(224, 187, 219);
-}
-
-.produtos img{
-    width: 100%;
-    height: 250px;
+    box-shadow: 15px 15px 10px  rgb(63, 22, 82);
     
-
-
 }
+
+#catalogo{
+    margin: 75px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center
+    
+    
+}
+
+
