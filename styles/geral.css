@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Caprasimo ;
+    src: url(../fonts/Caprasimo/Caprasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Noto ;
+    src: url(../fonts/Noto_Sans_Mro/NotoSansMro-Regular.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Caprasimo', 'Noto', Georgia, 'Times New Roman', Times, serif
+            
+}
+
+body{
+    background-color: rgb(255, 230, 221);
+}
+
+.header{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(251, 212, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#links{
+    background-color:rgb(126, 45, 163);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+h2{
+    text-decoration: none;
+    margin: 55px; 
+    color: rgb(126, 45, 163);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(240, 189, 255);    
+}
+
+h3{
+      
+    text-decoration: none;
+    color: rgb(251, 212, 255);
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(126, 45, 163);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto';
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(251, 212, 255);
+}
+
+p{
+    font-family: 'Noto';
+    color: rgb(84, 23, 112)
+    
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    color: rgb(84, 23, 112);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

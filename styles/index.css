@@ -1,69 +1,8 @@
-*{font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-
-body{
-    background-color: rgb(255, 230, 221);
-}
-
-#cabecalho{
-    width: 100%;
-    padding: 20px;
-    background-color: rgb(251, 212, 255);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-#links{
-    background-color:rgb(126, 45, 163);
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
-
-}
 
 #conteudo img{
     width: 100%;
     height: 250px; 
 
-
-}
-
-
-
-h2{
-    text-decoration: none;
-    color: rgb(126, 45, 163);
-}
-
-a{
-    text-decoration: none;
-    color: rgb(240, 189, 255);    
-}
-
-h3{
-      
-    text-decoration: none;
-    color: rgb(251, 212, 255);
-    margin: 0px;
-    padding: 20px;
-    background-color: rgb(126, 45, 163);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-h4{
-    color: rgb(251, 212, 255);
-}
-
-p{
-    color: rgb(251, 212, 255)
 }
 
 button{
@@ -72,7 +11,7 @@ button{
 
 .produtos{
     width: 250px;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px;
     background-color: rgb(126, 45, 163);
     overflow: hidden;
@@ -88,6 +27,10 @@ button{
     align-items: center
     
     
+}
+
+p{
+    color: rgb(251, 212, 255)
 }
 
 
